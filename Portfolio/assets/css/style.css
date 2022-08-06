@@ -110,7 +110,7 @@
       }
 
     .vl-1 {
-        border-right: 2px solid;
+        border-right: 3px solid;
         height: 110px;
         flex: 2 1%;
     }
@@ -131,7 +131,7 @@
       /*PROJECTS*/
       .vl-2 {
         border-right: 3px solid #39a6b2;
-        height: 300px;
+        height: 350ƒpx;
         flex: 2 5%;  
       }
     
@@ -147,14 +147,67 @@
         width: 80%;     
       }
       
-    .project-image{
+    .project-image {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 10vw);
         grid-gap: 15px;
         margin-left: 30px;     
       }
+    .project--item  {
+        position: relative;
+    }
+    .project--image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: solid var(--primary-color);
+    }
 
+figcaption {
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -20%;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: bold;
+        color:  rgb(22, 44, 44);
+        border: solid 1px var(--primary-color);
+        background-color: rgb(229, 232, 238);
+}
+
+.vl-3 {
+    border-right: 3px solid #39a6b2;
+    height: 100px;
+    flex: 2 5%;
+  }
+  
+.about-info {
+    flex: 150;
+  }
+  .about-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 15px;
+    width: 100%;  
+    }
+  
+.contact-info ul li a {
+      margin: 0 30px;
+      font-size: 18px;
+      color: var(--primary-color);
+      text-decoration: none;
+      border-bottom: 3px solid;
+      padding-bottom: 2px;
+    }
+
+
+  
+                    
+                
 
 
 
